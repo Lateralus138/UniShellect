@@ -1,17 +1,37 @@
-! This is 
+! ╓────────────────────────────────────────────────────╖
+! ║ "UniShellect" is a command line utility that loads ║
+! ║ a menu of shells/interpreters/files commands with  ║
+! ║ possible arguments from a JSON configuration file. ║
+! ║                                                    ║
+! ║ Disclaimer:                                        ║
+! ║ This program uses the "fson" module by Joseph A.   ║
+! ║ Levin@josephalevin at GitHub:                      ║
+! ║ https://github.com/josephalevin/fson               ║
+! ║                                                    ║
+! ║ This mdoule is used to parse the JSON config file. ║
+! ║ All other code in this program is written by me:   ║
+! ║ © 2020 Ian Pride - New Pride Software/Services     ║
+! ║ A.K.A. Lateralus138, A.K.A. TheFluxApex            ║
+! ║                                                    ║
+! ║ This program is a "FOSS" Open-Source program lice- ║
+! ║ nsed under GPL V3 provided in the LICENSE file pr- ║
+! ║ ovided with this project.                          ║
+! ╙────────────────────────────────────────────────────╜
 program main
 	use fson
 	use fson_value_m, only: fson_value_count, fson_value_get
 	use function_m, only: is_int, to_upper, get_operating_system, get_error_number
 	implicit none
 	character(len=:), allocatable :: titlestr,command,warnmsg,chosen, &
-		argstr,conffile,envname,initdir,confdir,appdir,osname,mkdircom
+		argstr,conffile,envname,initdir,confdir,appdir,osname,mkdircom, &
+		titletest
 	character(len=1024) :: thispath, thisargs, thistitle
 	character(len=50) :: space = '                                                  '
 	character(len=20) :: inttostr,strtoint,input
 	character(len=1) :: thischar,ossep
 	integer :: index,shellcount = 0,inputindex,numindex,warnlen, &
-		chosenlen,argcount,argindex,openstat = -1,closestat = -1, errnum,mkdirstat,comstat
+		chosenlen,argcount,argindex,openstat = -1,closestat = -1, &
+		errnum,mkdirstat,comstat
 	logical :: isint = .false.,isopt = .false.,confexist = .false., &
 		supress = .false.,confdirexist = .false.
 	type(fson_value), pointer :: json_data, item, shells, one
@@ -52,7 +72,8 @@ program main
 				print '(a)', space(1:1)//'                 config file.'//space(31:)
 				print '(a)', space(1:1)//'    4            Not items found in the config'//space(48:)
 				print '(a)', space(1:1)//'                 file.'//space(24:)
-				print '(a)', space(1:1)//'    5            Error running command.'//space(41:)
+				print '(a)', space(1:1)//'    5            A key was not found in config.'//space(49:)
+				print '(a)', space(1:1)//'    6            Error running command.'//space(41:)
 				print '(a)', space
 				call exit(0)
 			end if
@@ -136,6 +157,16 @@ program main
 		write(inttostr,'(I0)') index
 		item => fson_value_get(shells, index)
 		call fson_get(item,"Title",thistitle)
+		if (trim(thistitle) .eq. '') then
+			titletest = 'Title'
+			warnmsg = 'Key: '//'"'//trim(titletest)//'"'//' was not found.'
+			warnlen = len(trim(warnmsg)) + 2
+			print '(a)', space
+			print '(a)', space(1:1)//warnmsg//space(warnlen:)
+			print '(a)', space
+			errnum = get_error_number(supress,5)
+			call exit(errnum)
+		end if
 		titlestr = trim(inttostr)//": "//trim(thistitle)
 		print '(a)', space(1:1)//trim(titlestr)//space(len(titlestr) + 2:)
 	end do
@@ -180,6 +211,26 @@ program main
 	call fson_get(item,"Title",thistitle)
 	call fson_get(item,"Path",thispath)
 	call fson_get(item,"Args",thisargs)
+	if (thistitle .eq. '') then
+		titletest = 'Title'
+		warnmsg = 'Key: '//'"'//trim(titletest)//'"'//' was not found.'
+		warnlen = len(trim(warnmsg)) + 2
+		print '(a)', space
+		print '(a)', space(1:1)//warnmsg//space(warnlen:)
+		print '(a)', space
+		errnum = get_error_number(supress,5)
+		call exit(errnum)
+	end if
+	if (thispath .eq. '') then
+		titletest = 'Path'
+		warnmsg = 'Key: '//'"'//trim(titletest)//'"'//' was not found.'
+		warnlen = len(trim(warnmsg)) + 2
+		print '(a)', space
+		print '(a)', space(1:1)//warnmsg//space(warnlen:)
+		print '(a)', space
+		errnum = get_error_number(supress,5)
+		call exit(errnum)
+	end if
 	chosen = 'You chose: '//trim(thistitle)
 	chosenlen = len(trim(chosen)) + 2
 	print '(a)', space
@@ -187,7 +238,7 @@ program main
 	print '(a)', space	
 	call execute_command_line(trim('"'//trim(thispath)//'" ')//' '//trim(thisargs),exitstat=comstat)
 	if (comstat .gt. 0) then
-		errnum = get_error_number(supress,5)
+		errnum = get_error_number(supress,6)
 		call exit(errnum)
 	end if
 end program main
