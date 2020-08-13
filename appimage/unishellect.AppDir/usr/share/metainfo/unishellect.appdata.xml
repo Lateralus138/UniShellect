@@ -5,7 +5,7 @@
   <metadata_license>FSFAP</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <name>UniShellect</name>
-  <summary>Load a menu of shells/files/commands from any console.</summary>
+  <summary>Load a menu of shells/files/commands from any console</summary>
 
   <description>
     <p>
@@ -30,11 +30,11 @@
   <screenshots>
     <screenshot type="default">
       <caption>UniShellect Demo</caption>
-      <image>https://github.com/Lateralus138/UniShellect/media/demo.png</image>
+      <image>https://github.com/Lateralus138/UniShellect/blob/master/media/demo.png</image>
     </screenshot>
     <screenshot>
       <caption>UniShellect Help</caption>
-      <image>https://github.com/Lateralus138/UniShellect/media/help.png</image>
+      <image>https://github.com/Lateralus138/UniShellect/blob/master/media/help.png</image>
     </screenshot>
   </screenshots>
 
