@@ -1,3 +1,22 @@
+! ╓────────────────────────────────────────────────────╖
+! ║ "UniShellect" is a command line utility that loads ║
+! ║ a menu of shells/interpreters/files commands with  ║
+! ║ possible arguments from a JSON configuration file. ║
+! ║                                                    ║
+! ║ Disclaimer:                                        ║
+! ║ This program uses the "fson" module by Joseph A.   ║
+! ║ Levin@josephalevin at GitHub:                      ║
+! ║ https://github.com/josephalevin/fson               ║
+! ║                                                    ║
+! ║ This mdoule is used to parse the JSON config file. ║
+! ║ All other code in this program is written by me:   ║
+! ║ © 2020 Ian Pride - New Pride Software/Services     ║
+! ║ A.K.A. Lateralus138, A.K.A. TheFluxApex            ║
+! ║                                                    ║
+! ║ This program is a "FOSS" Open-Source program lice- ║
+! ║ nsed under GPL V3 provided in the LICENSE file pr- ║
+! ║ ovided with this project.                          ║
+! ╙────────────────────────────────────────────────────╜
 program main
 	use fson
 	use fson_value_m, only: fson_value_count, fson_value_get
