@@ -54,7 +54,6 @@ contains
             operating_system = 'linux'
         end if
     end function get_operating_system
-
     function get_error_number(supress,number) result(errnum)
         logical, intent(in) :: supress
         integer, intent(in) :: number
@@ -66,5 +65,4 @@ contains
                 errnum = number
         end select 
     end function get_error_number
-
 end module function_m
