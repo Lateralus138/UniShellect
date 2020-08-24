@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=unishellect
+Exec=unishellect %F
+Icon=unishellect
+Terminal=true
+Type=Application
+Categories=Utility;
