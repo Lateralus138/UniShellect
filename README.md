@@ -21,8 +21,13 @@
       - [Help Message](#help-message)
     - [Configuration](#configuration)
       - [Example Configs](#example-configs)
-      - [Example Config - Linux](#example-config---linux)
-      - [Example Config - Windows](#example-config---windows)
+        - [Example Config - Linux](#example-config---linux)
+        - [Example Config - Windows](#example-config---windows)
+  - [Files](#files)
+    - [Linux Files](#linux-files)
+    - [Windows Files](#windows-files)
+  - [Project Links](#project-links)
+  - [License](#license)
 
 <a name="about-this-project"></a>
 
@@ -127,7 +132,7 @@ By default the configuration file is empty and you must add your own options.
 
 <a name="example-config---linux"></a>
 
-#### Example Config - Linux
+##### Example Config - Linux
 
 ```JSON
  {
@@ -153,7 +158,7 @@ By default the configuration file is empty and you must add your own options.
 
 <a name="example-config---windows"></a>
 
-#### Example Config - Windows
+##### Example Config - Windows
 
 ```JSON
  {
@@ -176,3 +181,41 @@ By default the configuration file is empty and you must add your own options.
     }
  }
 ```
+
+<a name="files"></a>
+
+## Files
+
+<!-- File|Description
+---:|:---
+[Source Files - All](source_all.7z)|Complete project - no compilations. -->
+
+<a name="linux-files"></a>
+
+### Linux Files
+
+<!-- File|Description
+---:|:---
+[Source Files](source_linux.7z)|Linux source - no compilations.
+[Compiled](dist/linux/bench)|Compiled binary executable. -->
+
+<a name="windows-files"></a>
+
+### Windows Files
+
+<!-- File|Description
+---:|:---
+[Source Files](source_windows.7z)|Windows source - no compilations.
+[Compiled](dist/windows/bench.exe)|Compiled binary executable. -->
+
+<a name="project-links"></a>
+
+## Project Links
+
+<a name="license"></a>
+
+## [License](./LICENSE)
+
+>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
