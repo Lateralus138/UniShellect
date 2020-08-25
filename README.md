@@ -26,7 +26,11 @@
   - [Files](#files)
     - [Linux Files](#linux-files)
     - [Windows Files](#windows-files)
+    - [Continuous Build](#continuous-build)
   - [Project Links](#project-links)
+  - [Media](#media)
+    - [Help Message](#help-message-1)
+    - [Demo](#demo)
   - [License](#license)
 
 <a name="about-this-project"></a>
@@ -209,14 +213,43 @@ By default the configuration file is empty and you must add your own options.
 |[Source Files](archives/source_unishellect_windows.7z)|Windows source - no compilations.|
 |[Compiled](dist/windows/bin/unishellect.exe)|Compiled binary executable with no dependencies.|
 
-<!-- File|Description
----:|:---
-[Source Files](source_windows.7z)|Windows source - no compilations.
-[Compiled](dist/windows/bench.exe)|Compiled binary executable. -->
+<a name="continuous-build"></a>
+
+### Continuous Build
+
+The current released compiled binary executables. These should correlate to the above compilations, but just in case these are the "official" current releases.
+
+|File|Description|
+|:---:|:---:|
+|[Linux - EXE](https://github.com/Lateralus138/UniShellect/releases/download/Continuous/unishellect)|Linux source - no compilations.|
+|[Linux - AppImage](https://github.com/Lateralus138/UniShellect/releases/download/Continuous/unishellect-x86_64.AppImage)|Packaged `AppImage` with all dependencies.|
+|[Windows - EXE](https://github.com/Lateralus138/UniShellect/releases/download/Continuous/unishellect.exe)|Single executable with all dependencies.|
 
 <a name="project-links"></a>
 
 ## Project Links
+
+|Link|Description|
+|:--:|:--:|
+|[Official Project Page](https://lateralus138.github.io/UniShellect)|The themed version of this page.|
+|[Project Page](https://github.com/Lateralus138/UniShellect/)|This repository page.|
+|[Current Releases](https://github.com/Lateralus138/UniShellect/releases/tag/Continuous)|The release files in "Continuous Build".|
+
+<a name="Media"></a>
+
+## Media
+
+<a name="help-message"></a>
+
+### Help Message
+
+![Help Message](media/help.png)
+
+<a name="demo"></a>
+
+### Demo
+
+![Demo](media/demo.png)
 
 <a name="license"></a>
 
