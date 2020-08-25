@@ -17,6 +17,8 @@
   - [Motivation](#motivation)
   - [Usage](#usage)
     - [Command Line](#command-line)
+      - [Linux Permissions](#linux-permissions)
+      - [Help Message](#help-message)
     - [Configuration](#configuration)
       - [Example Configs](#example-configs)
       - [Example Config - Linux](#example-config---linux)
@@ -53,6 +55,26 @@ This is inspired by the `hyper-shellect` plug-in for the `Hyper` terminal which 
 This is a command line tool built for use in many different types of shells and terminals in *Windows* and *Linux*. It is meant to be a universal alternative to `hyper-shellect` with additional features (loading different configs, passing arguments, and error handling).
 
 Use any way you can use any other command line tool/executable: from a command line or other executable program or script.
+
+<a name="linux-permissions"></a>
+
+#### Linux Permissions
+
+In `Windows` you can just double click to open in cmd or run in a command line, but in `Linux` you might need to set the programs permissions to executable:
+
+```Bash
+ $ chmod u+x /path/to/unishellect
+```
+
+or:
+
+```Bash
+ $ chmod 755 /path/to/unishellect-x86_64.AppImage
+```
+
+<a name="help-message"></a>
+
+#### Help Message
 
 ```Bash
  $ unishellect --help
