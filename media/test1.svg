@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128.25 31.13">
+	<defs>
+		<style>
+			.cls-1,.cls-4{fill:#1f1f1f;}.cls-2,.cls-4{font-size:11px;font-family:Arial, Arial;}.cls-2{fill:#efefef;}.cls-3{fill:#e11;}.cls-5{fill:none;stroke:#1f1f1f;stroke-miterlimit:10;stroke-width:0.25px;}
+		</style>
+	</defs>
+	<g id="Layer_1" data-name="Layer 1">
+		<path class="cls-1" d="M4.13.13h44a0,0,0,0,1,0,0v24a0,0,0,0,1,0,0h-44a4,4,0,0,1-4-4v-16a4,4,0,0,1,4-4Z" />
+		<text class="cls-2" transform="translate(3.87 15) scale(1.14 1)">
+			Fortran
+		</text>
+	</g>
+	<g id="Layer_2" data-name="Layer 2">
+		<path class="cls-3" d="M48.13.13H123a5.16,5.16,0,0,1,5.16,5.16V19A5.16,5.16,0,0,1,123,24.13H48.13a0,0,0,0,1,0,0V.13A0,0,0,0,1,48.13.13Z" />
+		<text class="cls-4" transform="translate(50.4 15) scale(1.14 1)">
+			Programming
+		</text>
+	</g>
+	<g id="Layer_3" data-name="Layer 3">
+		<rect class="cls-5" x="0.13" y="0.13" width="128" height="24" rx="4.62" />
+	</g>
+</svg>
