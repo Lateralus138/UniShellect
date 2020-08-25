@@ -35,5 +35,5 @@ jobs:
         tag: Continuous
         name: Continuous Build
         prerelease: False
-        artifacts: "dist/appimage/unishellect-x86_64.AppImage,dist/bin/unishellect"
+        artifacts: "dist/linux/appimage/unishellect-x86_64.AppImage,dist/linux/bin/unishellect"
         token: ${{ secrets.GITHUB_TOKEN }}
