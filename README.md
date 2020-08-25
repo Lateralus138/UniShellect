@@ -30,7 +30,7 @@
 
 This tool parses a JSON config file and loads a highly customizable menu of shells, interpreters, files, commands and possible arguments into any command line interface.
 
-Various config files can be loaded and this can be great for ladoing various menus based on various criteria:
+Various config files can be loaded and this can be great for laoding various menus based on various criteria:
 E.g. project menus, work menus, game menus etc...
 
 
