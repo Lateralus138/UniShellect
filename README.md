@@ -186,22 +186,28 @@ By default the configuration file is empty and you must add your own options.
 
 ## Files
 
-<!-- File|Description
----:|:---
-[Source Files - All](source_all.7z)|Complete project - no compilations. -->
+|File|Description|
+|:---:|:---:|
+|[Source Files - All](archives/source_unishellect_all.7z)|Complete project - no compilations.|
 
 <a name="linux-files"></a>
 
 ### Linux Files
 
-<!-- File|Description
----:|:---
-[Source Files](source_linux.7z)|Linux source - no compilations.
-[Compiled](dist/linux/bench)|Compiled binary executable. -->
+|File|Description|
+|:---:|:---:|
+|[Source Files](archives/source_unishellect_linux.7z)|Linux source - no compilations.|
+|[Compiled](dist/linux/bin/unishellect)|Compiled binary executable with no dependencies.|
+|[AppImage](dist/linux/appimage/unishellect-x86_64.AppImage)|Single executable with all dependencies.|
 
 <a name="windows-files"></a>
 
 ### Windows Files
+
+|File|Description|
+|:---:|:---:|
+|[Source Files](archives/source_unishellect_windows.7z)|Windows source - no compilations.|
+|[Compiled](dist/windows/bin/unishellect.exe)|Compiled binary executable with no dependencies.|
 
 <!-- File|Description
 ---:|:---
