@@ -119,7 +119,7 @@ or:
 
 ### Configuration
 
-The default `JSON` configuration file: `unishellect.json` will be created in the corresponding `%AppData%\UniSHellect\` or `.config/UniShellect/` directory in `Windows` and `Linux` respectively on first run if no `-c` option has been passed with an alternate configuration file.
+The default `JSON` configuration file: `unishellect.json` will be created in the corresponding `%AppData%\UniShellect\` or `.config/UniShellect/` directory in `Windows` and `Linux` respectively on first run if no `-c` option has been passed with an alternate configuration file.
 
 By default the configuration file is empty and you must add your own options.
 
