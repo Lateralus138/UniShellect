@@ -69,14 +69,25 @@ Use any way you can use any other command line tool/executable: from a command l
 
 In `Windows` you can just double click to open in cmd or run in a command line, but in `Linux` you might need to set the programs permissions to executable:
 
+
+> Make executable for yourself:
+
 ```Bash
  $ chmod u+x /path/to/unishellect
+```
+
+or: 
+
+> Make executable for for everyone:
+
+```Bash
+ $ chmod 755 /path/to/unishellect-x86_64.AppImage
 ```
 
 or:
 
 ```Bash
- $ chmod 755 /path/to/unishellect-x86_64.AppImage
+ $ chmod a+x /path/to/unishellect
 ```
 
 <a name="help-message"></a>
