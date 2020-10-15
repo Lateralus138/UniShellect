@@ -6,8 +6,6 @@
 |---:|:---|
 ![Under Construction](https://img.shields.io/static/v1?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB11BMVEUAAAA9U2GDnayLpraOqLeQqbiRqriPqLaPqLaRqriDnaw9U2Fid4SKp7iKp7hid4RfdYGHpbdYbnuCorRSaHV9nrFMYm93ma1HXGlwlKlwlKlBV2NojqQ7UV1hiKA2S1hYgpswRlJQfJcwRlIkMjlDbIVMfJpNfptOfptNfZpRfplTf5lMfJlOfptNfptDbIUkMjkHAAAuR1YzUWMzUWMzUmM0UmQzUWMyUWM0UmQzUmMzUWMzUWMuR1YHAACNsMWRs8aXt8mbuMm3ydSbuMmRs8aIrsONscWStMeZtsfk6u3k6u2ZtseStMeIrsOGrMKKr8SMr8Oswc3u8PHu8PGswc6Mr8OCqcCFrMKJrsOTssTT3OLS3OKTssSJrsOCqcB9pr5/p7+CqcCApryYs8Sdt8aApryCqb9/p799pr52obp4o7x9o7qswc7F09vO2eCwxNCCp7x4ort2obpvnLdxnbd9orjK1t3T3OLK1t7Y4OSFp7twnLZvnbdomLRolrKTsMHb4eWju8mRrsDd4+aiushplrJomLRhkrBik7Bmkq25ydLY3uLW3eHI09ptl69hkrBhkrBZjq1bj65ej613nbSRrr+etsV3nbRika1bjq5Zjq3///97NWaUAAAAP3RSTlMAAlOMioqKioqKUwIMwcEMDsQOxA7EDsQOxMQOxA7EDsQOxA4Lq/Lv7+/v7+/v76sLASI+Pj4+Pj4+Pj4+IgH2SccMAAAAAWJLR0SccbzCJwAAAAd0SU1FB+QIGBYnM5liyzQAAADPSURBVAjXY2BABYxMzCysbOwcnKwszFzcDDy89g6OTs7OLo6u9nz8DAKCbu4enl7ePr7ufoICDELC/gGBQcEhoWEB/sJCDCKi4RGRUdExsXER8aIiDGLiCYlJySmpaekZmeJiDBKSWdk5uXn5BYVFxVISDNIyJaVl5RWVVdU1tTLSDLJydfUNjU3NLa1t7XKyDPIKHZ1d3T29ff0TJirIMygqTZo8Zeq06TNmzpqtpMygoqqmrqGppa2jq6emb8BgaGRsYmpmbmFpZW1jawcAIDgy9UQeYeoAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDgtMjRUMjI6Mzk6NTEtMDQ6MDBWWeqAAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTA4LTI0VDIyOjM5OjUxLTA0OjAwJwRSPAAAAABJRU5ErkJggg==&label=AppImage&message=Status&color=b91d47)|![AppImage Build Status](https://img.shields.io/github/workflow/status/Lateralus138/UniShellect/AppImage%20Build)
 
-<a name="table-of-contents"></a>
-
 ## Table of Contents
 - [UniShellect](#unishellect)
   - [Table of Contents](#table-of-contents)
@@ -27,11 +25,10 @@
     - [Continuous Build](#continuous-build)
   - [Project Links](#project-links)
   - [Media](#media)
+    - [Icon](#icon)
     - [Help Message](#help-message-1)
     - [Demo](#demo)
   - [License](#license)
-
-<a name="about-this-project"></a>
 
 ## About This Project
 
@@ -43,27 +40,19 @@ E.g. project menus, work menus, game menus etc...
 
 This is a *cross-platform* `FOSS` project. 
 
-<a name="motivation"></a>
-
 ## Motivation
 
 I work and play in all sorts of command line environments in both *Windows* and *Linux* and this helps me organize and navigate that world more effeciently and smoothly.
 
 This is inspired by the `hyper-shellect` plug-in for the `Hyper` terminal which is dependent on `node.js`.
 
-<a name="usage"></a>
-
 ## Usage
-
-<a name="command-line"></a>
 
 ### Command Line
 
 This is a command line tool built for use in many different types of shells and terminals in *Windows* and *Linux*. It is meant to be a universal alternative to `hyper-shellect` with additional features (loading different configs, passing arguments, and error handling).
 
 Use any way you can use any other command line tool/executable: from a command line or other executable program or script.
-
-<a name="linux-permissions"></a>
 
 #### Linux Permissions
 
@@ -89,8 +78,6 @@ or:
 ```Bash
  $ chmod a+x /path/to/unishellect
 ```
-
-<a name="help-message"></a>
 
 #### Help Message
 
@@ -126,8 +113,6 @@ or:
                                            
 ```
 
-<a name="configuration"></a>
-
 ### Configuration
 
 The default `JSON` configuration file: `unishellect.json` will be created in the corresponding `%AppData%\UniShellect\` or `.config/UniShellect/` directory in `Windows` and `Linux` respectively on first run if no `-c` option has been passed with an alternate configuration file.
@@ -139,11 +124,7 @@ By default the configuration file is empty and you must add your own options.
 |Windows|`%AppData%\UniShellect\unishellect.json`|
 |Linux|`$HOME/.config/UniShellect/unishellect.json`|
 
-<a name="example-configs"></a>
-
 #### Example Configs
-
-<a name="example-config---linux"></a>
 
 ##### Example Config - Linux
 
@@ -169,8 +150,6 @@ By default the configuration file is empty and you must add your own options.
  }
 ```
 
-<a name="example-config---windows"></a>
-
 ##### Example Config - Windows
 
 ```JSON
@@ -195,15 +174,11 @@ By default the configuration file is empty and you must add your own options.
  }
 ```
 
-<a name="files"></a>
-
 ## Files
 
 |File|Description|
 |:---:|:---:|
 |[Source Files - All](archives/source_unishellect_all.7z)|Complete project - no compilations.|
-
-<a name="linux-files"></a>
 
 ### Linux Files
 
@@ -213,16 +188,12 @@ By default the configuration file is empty and you must add your own options.
 |[Compiled](dist/linux/bin/unishellect)|Compiled binary executable with no dependencies.|
 |[AppImage](dist/linux/appimage/unishellect-x86_64.AppImage)|Single executable with all dependencies.|
 
-<a name="windows-files"></a>
-
 ### Windows Files
 
 |File|Description|
 |:---:|:---:|
 |[Source Files](archives/source_unishellect_windows.7z)|Windows source - no compilations.|
 |[Compiled](dist/windows/bin/unishellect.exe)|Compiled binary executable with no dependencies.|
-
-<a name="continuous-build"></a>
 
 ### Continuous Build
 
@@ -234,8 +205,6 @@ The current released compiled binary executables. These should correlate to the 
 |[Linux - AppImage](https://github.com/Lateralus138/UniShellect/releases/download/Continuous/unishellect-x86_64.AppImage)|Packaged `AppImage` with all dependencies.|
 |[Windows - EXE](https://github.com/Lateralus138/UniShellect/releases/download/Continuous/unishellect.exe)|Single executable with all dependencies.|
 
-<a name="project-links"></a>
-
 ## Project Links
 
 |Link|Description|
@@ -244,23 +213,19 @@ The current released compiled binary executables. These should correlate to the 
 |[Project Page](https://github.com/Lateralus138/UniShellect/)|This repository page.|
 |[Current Releases](https://github.com/Lateralus138/UniShellect/releases/tag/Continuous)|The release files in "Continuous Build".|
 
-<a name="Media"></a>
-
 ## Media
 
-<a name="help-message"></a>
+### Icon
+
+![Icon](media/icon/unishellect.png)
 
 ### Help Message
 
 ![Help Message](media/help.png)
 
-<a name="demo"></a>
-
 ### Demo
 
 ![Demo](media/demo.png)
-
-<a name="license"></a>
 
 ## [License](./LICENSE)
 
