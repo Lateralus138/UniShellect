@@ -14,7 +14,12 @@ This tool parses a JSON config file and loads a menu of shells, interpreters, fi
 	<url type="homepage">https://github.com/Lateralus138/UniShellect</url>
 	<screenshots>
 		<screenshot type="default">
+			<caption>Demonstration of listing a menu</caption>
 			<image>https://raw.githubusercontent.com/Lateralus138/UniShellect/master/media/demo.png</image>
+		</screenshot>
+		<screenshot>
+			<caption>The icon</caption>
+			<image>https://raw.githubusercontent.com/Lateralus138/UniShellect/master/media/icon/unishellect.png</image>
 		</screenshot>
 	</screenshots>
 	<provides>
