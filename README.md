@@ -29,6 +29,9 @@
     - [Help Message](#help-message-1)
     - [Demo](#demo)
   - [License](#license)
+  - [Project Information](#project-information)
+    - [Overall Status](#overall-status)
+    - [Latest Version Status](#latest-version-status)
 
 ## About This Project
 
@@ -232,3 +235,26 @@ The current released compiled binary executables. These should correlate to the 
 >This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 >This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+## Project Information
+
+![]()
+
+### Overall Status
+
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Lateralus138&repo=UniShellect)
+
+|Description|Status|
+|:---:|:---:|
+|Project Release Date|![GitHub Release Date](https://img.shields.io/github/release-date/Lateralus138/UniShellect?style=for-the-badge)|
+|Total downloads for this project|![GitHub all releases](https://img.shields.io/github/downloads/Lateralus138/UniShellect/total?style=for-the-badge)|
+|Complete repository size|![This Repo Size](https://img.shields.io/github/repo-size/Lateralus138/UniShellect?style=for-the-badge)|
+|Commits in last month|![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Lateralus138/UniShellect?style=for-the-badge)|
+|Commits in last year|![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Lateralus138/UniShellect?style=for-the-badge)|
+
+### Latest Version Status
+
+|Description|Status|Number of Downloads|
+|:---:|:---:|:---:|
+|Latest Release version|![Release Version](https://img.shields.io/github/v/release/Lateralus138/UniShellect?style=for-the-badge)|![GitHub release (latest by date)](https://img.shields.io/github/downloads/Lateralus138/UniShellect/Continuous/total?style=for-the-badge)|
+|Latest Tag version, possible Pre-Release's|![Tag Version](https://img.shields.io/github/v/tag/Lateralus138/UniShellect?style=for-the-badge)|![GitHub release (latest by date)](https://img.shields.io/github/downloads/Lateralus138/UniShellect/Continuous/total?style=for-the-badge)|
