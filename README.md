@@ -9,8 +9,22 @@
 <a class="twitter-share-button"
   href="https://twitter.com/share?ref_src=twsrc%5Etfw&text=%27UniShellect%27%20-%20Create%20command%20line%20menus%20of%20commands%20or%20files%20from%20a%20default%20or%20external%20JSON%20config%20file%2Fs.%0A%23Programming%20%23Coding%20%23Windows%20%23Linux%20via%20%40thefluxapex%0A">![Twitter URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FLateralus138%2FUniShellect&label=Tweet%20This%20Project&style=for-the-badge&labelColor=292f33&color=55acee&logo=twitter)</a>
 
+## News
+
+`Sun 25 Apr 2021 03:00:53 PM CDT`
+
+This program works fine as is, but my *JSON* structure is nonsense and I want to re-write this in *C++* and *Rust* (maybe) and so I plan to do so at some point this year.
+
+### Coming Soon
+
+`Sun 25 Apr 2021 03:00:53 PM CDT`
+
+Re-writes in both *C++* and *Rust* adding better cross-platform capability with plans to add the ability to add and remove items from the configuration file via the command line (*switches* and *arguments*).
+
 ## Table of Contents
 - [UniShellect](#unishellect)
+  - [News](#news)
+    - [Coming Soon](#coming-soon)
   - [Table of Contents](#table-of-contents)
   - [About This Project](#about-this-project)
   - [Motivation](#motivation)
