@@ -9,6 +9,10 @@
 <a class="twitter-share-button"
   href="https://twitter.com/share?ref_src=twsrc%5Etfw&text=%27UniShellect%27%20-%20Create%20command%20line%20menus%20of%20commands%20or%20files%20from%20a%20default%20or%20external%20JSON%20config%20file%2Fs.%0A%23Programming%20%23Coding%20%23Windows%20%23Linux%20via%20%40thefluxapex%0A">![Twitter URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FLateralus138%2FUniShellect&label=Tweet%20This%20Project&style=for-the-badge&labelColor=292f33&color=55acee&logo=twitter)</a>
 
+If you like this project and care to donate to my PayPal:
+
+[![PayPal Donation](./docs/media/images/paypal_donate_button.png)](https://paypal.me/ianapride?locale.x=en_US)
+
 ## News
 
 `Sun 25 Apr 2021 03:00:53 PM CDT`
