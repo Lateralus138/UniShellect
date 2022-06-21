@@ -35,6 +35,7 @@ Re-writes in both *C++* and *Rust* adding better cross-platform capability with 
 
 ## Table of Contents
 - [UniShellect](#unishellect)
+  - [Support Me If You Like](#support-me-if-you-like)
   - [News](#news)
     - [Coming Soon](#coming-soon)
   - [Table of Contents](#table-of-contents)
