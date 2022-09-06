@@ -2,6 +2,15 @@
 
 # UniShellect
 
+---
+
+***ATTENTION!***
+
+This version is soon to be abandoned in favor of 
+
+---
+
+
 |`Build`|`Status`|
 |---:|:---|
 ![Under Construction](https://img.shields.io/static/v1?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB11BMVEUAAAA9U2GDnayLpraOqLeQqbiRqriPqLaPqLaRqriDnaw9U2Fid4SKp7iKp7hid4RfdYGHpbdYbnuCorRSaHV9nrFMYm93ma1HXGlwlKlwlKlBV2NojqQ7UV1hiKA2S1hYgpswRlJQfJcwRlIkMjlDbIVMfJpNfptOfptNfZpRfplTf5lMfJlOfptNfptDbIUkMjkHAAAuR1YzUWMzUWMzUmM0UmQzUWMyUWM0UmQzUmMzUWMzUWMuR1YHAACNsMWRs8aXt8mbuMm3ydSbuMmRs8aIrsONscWStMeZtsfk6u3k6u2ZtseStMeIrsOGrMKKr8SMr8Oswc3u8PHu8PGswc6Mr8OCqcCFrMKJrsOTssTT3OLS3OKTssSJrsOCqcB9pr5/p7+CqcCApryYs8Sdt8aApryCqb9/p799pr52obp4o7x9o7qswc7F09vO2eCwxNCCp7x4ort2obpvnLdxnbd9orjK1t3T3OLK1t7Y4OSFp7twnLZvnbdomLRolrKTsMHb4eWju8mRrsDd4+aiushplrJomLRhkrBik7Bmkq25ydLY3uLW3eHI09ptl69hkrBhkrBZjq1bj65ej613nbSRrr+etsV3nbRika1bjq5Zjq3///97NWaUAAAAP3RSTlMAAlOMioqKioqKUwIMwcEMDsQOxA7EDsQOxMQOxA7EDsQOxA4Lq/Lv7+/v7+/v76sLASI+Pj4+Pj4+Pj4+IgH2SccMAAAAAWJLR0SccbzCJwAAAAd0SU1FB+QIGBYnM5liyzQAAADPSURBVAjXY2BABYxMzCysbOwcnKwszFzcDDy89g6OTs7OLo6u9nz8DAKCbu4enl7ePr7ufoICDELC/gGBQcEhoWEB/sJCDCKi4RGRUdExsXER8aIiDGLiCYlJySmpaekZmeJiDBKSWdk5uXn5BYVFxVISDNIyJaVl5RWVVdU1tTLSDLJydfUNjU3NLa1t7XKyDPIKHZ1d3T29ff0TJirIMygqTZo8Zeq06TNmzpqtpMygoqqmrqGppa2jq6emb8BgaGRsYmpmbmFpZW1jawcAIDgy9UQeYeoAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDgtMjRUMjI6Mzk6NTEtMDQ6MDBWWeqAAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTA4LTI0VDIyOjM5OjUxLTA0OjAwJwRSPAAAAABJRU5ErkJggg==&label=AppImage&message=Status&color=b91d47)|![AppImage Build Status](https://img.shields.io/github/workflow/status/Lateralus138/UniShellect/AppImage%20Build)
@@ -11,57 +20,51 @@
 
 ---
 
-## Support Me If You Like
-
-If you like this project and care to donate to my ***PayPal***:
-
-[![PayPal Donation](docs/media/images/paypal_donate_button.png)](https://paypal.me/ianapride?locale.x=en_US)
-
-Or ***Buy Me A Coffee*** if your prefer:
-
-[![Buy Me A Coffee](./docs/media/images/buymeacoffe_a.png)](https://www.buymeacoffee.com/ianalanpride)
-
 ## News
 
-`Sun 25 Apr 2021 03:00:53 PM CDT`
+### New Version
 
-This program works fine as is, but my *JSON* structure is nonsense and I want to re-write this in *C++* and *Rust* (maybe) and so I plan to do so at some point this year.
+`Tue 06 Sep 2022 05:34:50 PM UTC`
+
+The new version is finished and will be released officially very soon as I'm currently working on the new repository. For now there are stable pre-released builds there, but they are not official yet. You can find the new project [***here***](https://github.com/Lateralus138/unishellectv2).
 
 ### Coming Soon
 
 `Sun 25 Apr 2021 03:00:53 PM CDT`
 
+This program works fine as is, but my *JSON* structure is nonsense and I want to re-write this in *C++* and *Rust* (maybe) and so I plan to do so at some point this year.
+
 Re-writes in both *C++* and *Rust* adding better cross-platform capability with plans to add the ability to add and remove items from the configuration file via the command line (*switches* and *arguments*).
 
 ## Table of Contents
-- [UniShellect](#unishellect)
-  - [Support Me If You Like](#support-me-if-you-like)
-  - [News](#news)
-    - [Coming Soon](#coming-soon)
-  - [Table of Contents](#table-of-contents)
-  - [About This Project](#about-this-project)
-  - [Motivation](#motivation)
-  - [Usage](#usage)
-    - [Command Line](#command-line)
-      - [Linux Permissions](#linux-permissions)
-      - [Help Message](#help-message)
-    - [Configuration](#configuration)
-      - [Example Configs](#example-configs)
-        - [Example Config - Linux](#example-config---linux)
-        - [Example Config - Windows](#example-config---windows)
-  - [Files](#files)
-    - [Linux Files](#linux-files)
-    - [Windows Files](#windows-files)
-    - [Continuous Build](#continuous-build)
-  - [Project Links](#project-links)
-  - [Media](#media)
-    - [Icon](#icon)
-    - [Help Message](#help-message-1)
-    - [Demo](#demo)
-  - [License](#license)
-  - [Project Information](#project-information)
-    - [Overall Status](#overall-status)
-    - [Latest Version Status](#latest-version-status)
+1. [News](#news)
+   1. [New Version](#new-version)
+   2. [Coming Soon](#coming-soon)
+2. [Table of Contents](#table-of-contents)
+3. [About This Project](#about-this-project)
+4. [Motivation](#motivation)
+5. [Usage](#usage)
+   1. [Command Line](#command-line)
+      1. [Linux Permissions](#linux-permissions)
+      2. [Help Message](#help-message)
+   2. [Configuration](#configuration)
+      1. [Example Configs](#example-configs)
+         1. [Example Config - Linux](#example-config---linux)
+         2. [Example Config - Windows](#example-config---windows)
+6. [Files](#files)
+   1. [Linux Files](#linux-files)
+   2. [Windows Files](#windows-files)
+   3. [Continuous Build](#continuous-build)
+7. [Project Links](#project-links)
+8. [Media](#media)
+   1. [Icon](#icon)
+   2. [Help Message](#help-message-1)
+   3. [Demo](#demo)
+9. [Support Me If You Like](#support-me-if-you-like)
+10. [License](#license)
+11. [Project Information](#project-information)
+    1. [Overall Status](#overall-status)
+    2. [Latest Version Status](#latest-version-status)
 
 ## About This Project
 
@@ -259,6 +262,20 @@ The current released compiled binary executables. These should correlate to the 
 ### Demo
 
 ![Demo](media/demo.png)
+
+---
+
+## Support Me If You Like
+
+If you like this project and care to donate to my ***PayPal***:
+
+[![PayPal Donation](docs/media/images/paypal_donate_button.png)](https://paypal.me/ianapride?locale.x=en_US)
+
+Or ***Buy Me A Coffee*** if your prefer:
+
+[![Buy Me A Coffee](./docs/media/images/buymeacoffe_a.png)](https://www.buymeacoffee.com/ianalanpride)
+
+---
 
 ## [License](./LICENSE)
 
